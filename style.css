@@ -1,0 +1,133 @@
+.shadow {
+    box-shadow: 10px 10px 10px 10px;
+  }
+  .kayden {
+    background: pink;
+  }
+  .maguire {
+    background: lightblue;
+  }
+  :root {
+    --g-100: #26d07c;
+    --g-75: #5cdc90;
+    --r-100: #f9423a;
+    --r-75: #fa716b;
+    --primary-font: "Protest Revolution", sans-serif;
+    --bold: 1000;
+  }
+  
+  body {
+    font-family: var(--primary-font);
+  }
+  
+  .bold-my-text {
+    font-weight: var(--bold);
+  }
+  /* My buttons style */
+  
+  .button-my-success {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+  }
+  .protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .big-btn-rght {
+    top: 0%;
+    left: 0%;
+    transform: translate(70%, -200%);
+  }
+  .btn-color {
+    border: 3px solid #ffa500;
+    color: #ffa500;
+    background-color: #fdfd96;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-color:hover {
+    background-color: #000000;
+    color: #797ef6;
+    border: 3px solid #0000ff;
+  }
+  
+  .sm-btn-left {
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+  }
+  .btn-color-sm {
+    border: 3px solid #3deeed;
+    color: #3deeed;
+    background-color: #d8c0e4;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-color-sm:hover {
+    background-color: #ffffff;
+    color: #edd000;
+    border: 3px solid #edd000;
+  }
+  
+  .drop {
+    top: -10%;
+    left: 0;
+    transform: translate(0, 3000%);
+  }
+  
+  .text {
+    padding: 10px 20px;
+    border-radius: 0px;
+    transform: translate(0%, 7%);
+    text-align: center;
+  }
+  
+  .center {
+    top: 0%;
+    left: 0%;
+    transform: translate(33%, -60%);
+  }
+  
+  .gif {
+    top: 0%;
+    left: 0%;
+    transform: translate(600%, 30%);
+    size: 100px 100px 100px;
+  }
+  
+  .gif-kick {
+    top: 0%;
+    left: 0%;
+    transform: translate(-60%, 0%);
+  }
+  
+  .gif-stew {
+    top: 0%;
+    left: 0%;
+    transform: translate(85%, -100%);
+  }
+  
+  .btn-success:hover {
+    background-color: #cc0000;
+    color: #999999;
+    border: 1px solid #cc0000;
+  }
+  
+  .btn-danger:hover {
+    background-color: #7fb366;
+    color: #ffbe98;
+    border: 1px solid #0edd1e;
+  }
+  
