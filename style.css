@@ -39,8 +39,6 @@ body {
   font-style: normal;
 }
 
-}
-
 .big-btn-rght {
   top: 0%;
   left: 0%;
@@ -128,4 +126,9 @@ body {
 }
 
 .btn-danger:hover {
-  background-color: #7fb366;
+  background-color: #7fb366; 
+}
+
+.border-carousel {
+  border: 1px solid #000000;
+}
