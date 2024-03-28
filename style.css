@@ -2,16 +2,18 @@
   box-shadow: 10px 10px 10px 10px;
 }
 .kayden {
-  background: pink;
+  background: #30783e;
 }
 .maguire {
-  background: lightblue;
+  background: #0077b6;
 }
 :root {
-  --g-100: #26d07c;
-  --g-75: #5cdc90;
-  --r-100: #f9423a;
-  --r-75: #fa716b;
+  --p-100: #30783e;
+  --l-100: #3fb4ad;
+  --c-100: #0077b6;
+  --m-100: #bd5880;
+  --b-100: #b2313b;
+  --s-100: #f7d33a;
   --primary-font: "Luckiest Guy", sans-serif;
   --bold: 1000;
 }
@@ -26,12 +28,7 @@ body {
 /* My buttons style */
 
 .button-my-success {
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+  background: #3fb4ad
 }
 .luckiest-guy-regular {
   font-family: "Luckiest Guy", cursive;
@@ -42,12 +39,12 @@ body {
 .big-btn-rght {
   top: 0%;
   left: 0%;
-  transform: translate(70%, -200%);
+  transform: translate(270%, -100%);
 }
 .btn-color {
-  border: 3px solid #ffa500;
-  color: #ffa500;
-  background-color: #fdfd96;
+  border: 3px solid #b2313b;
+  color: #b2313b;
+  background-color: #bd5880;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -56,19 +53,19 @@ body {
 
 .btn-color:hover {
   background-color: #000000;
-  color: #797ef6;
-  border: 3px solid #0000ff;
+  color: #f7d33a;
+  border: 3px solid #f7d33a;
 }
 
 .sm-btn-left {
   top: 0%;
   left: 0%;
-  transform: translate(0%, 0%);
+  transform: translate(-150%, 0%);
 }
 .btn-color-sm {
-  border: 3px solid #3deeed;
-  color: #3deeed;
-  background-color: #d8c0e4;
+  border: 3px solid #0077b6;
+  color: #0077b6;
+  background-color: #3fb4ad;
   padding: 10px 20px;
   border-radius: 15px;
   cursor: pointer;
@@ -77,8 +74,8 @@ body {
 
 .btn-color-sm:hover {
   background-color: #ffffff;
-  color: #edd000;
-  border: 3px solid #edd000;
+  color: #30783e;
+  border: 3px solid #30783e;
 }
 
 .drop {
@@ -94,41 +91,108 @@ body {
   text-align: center;
 }
 
-.center {
+.center-card {
   top: 0%;
   left: 0%;
-  transform: translate(33%, -60%);
+  transform: translate(-50%, 00%);
 }
 
-.gif {
+.gif-peter {
   top: 0%;
   left: 0%;
-  transform: translate(600%, 30%);
+  transform: translate(360%, -200%);
   size: 100px 100px 100px;
 }
 
-.gif-kick {
+.gif-pika {
   top: 0%;
   left: 0%;
-  transform: translate(-60%, 15%);
+  transform: translate(-20%, 45%);
 }
 
 .gif-stew {
   top: 0%;
   left: 0%;
-  transform: translate(85%, -100%);
+  transform: translate(0%, -20%);
 }
 
 .btn-success:hover {
   background-color: #cc0000;
-  color: #999999;
+  color: #f7d33a;
   border: 1px solid #cc0000;
 }
 
 .btn-danger:hover {
-  background-color: #7fb366; 
+  background-color: #30783e; 
+  color: #0077b6;
 }
 
 .border-carousel {
   border: 1px solid #000000;
+}
+
+body {
+  background-color:#adb5bd;
+}
+
+.fire {
+  background-color: #dc9090;
+  
+}
+
+body {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row {
+  padding: 30px;
+}
+
+.pokemon {
+  color:#f7d33a
+}
+
+.famguy {
+  color:#0077b6
+}
+
+.slimmy {
+  color:#30783e
+}
+
+.all {
+  color:#bd5880
+}
+
+.redbrian {
+  color:#b2313b
+}
+
+.teal {
+  color:#3fb4ad
+}
+
+
+.nav-link.active {
+  background-color: #bd5880;
+}
+
+.color:hover {
+  color: #ffffff;
+}
+
+.activepink {
+  background-color: #bd5880;
+}
+
+.cardpad {
+  padding:-100px;
+}
+
+.firstball {
+  top: 0%;
+  left: 0%;
+  transform: translate(85%, -2750%);
 }
